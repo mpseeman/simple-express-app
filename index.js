@@ -7,6 +7,11 @@ app.get('/', (req, res) => {
   console.log(res);
 });
 
+app.get('/apprunnerworkshop', (req, res) => {
+  res.send('Testing...');
+  console.log(res);
+});
+
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
